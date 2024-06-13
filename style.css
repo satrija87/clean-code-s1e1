@@ -21,11 +21,9 @@ body {
 }
 
 @media (max-width: 768px) {
-
   .header {
     text-align: center;
   }
-  
 }
 
 .main {
@@ -57,7 +55,7 @@ h3 {
 }
 
 input,
-.button {
+button {
   outline: none;
 }
 
@@ -154,7 +152,6 @@ input,
 .button_delete__img:hover {
   transform: rotateZ(0);
 }
-
 
 /* Completed */
 .completed .task__label {
